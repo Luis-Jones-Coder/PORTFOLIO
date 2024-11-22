@@ -23,7 +23,27 @@ h1, h2 {
 .sharp-corners, .sharp-corners * {
     border-radius: 0;
 }
+.mid-blue {
+    color: #1f7798;
+}
+.bt-mid-blue{
+    background-color: #1d6d8a;
+}
 
+.bt-mid-blue:hover{
+    background-color: #1f7798;
+    border-color: #1d6d8a;   
+    
+}
+    /* Modal section */
+.modal-content button {
+    background-color: #1f7798;
+}
+
+.modal-content button:hover {
+    background-color: #1d6d8a;
+    border-color: #1d6d8a;
+}
     /* About section */
 #about {
     background-color: white;
@@ -61,6 +81,9 @@ h1, h2 {
     padding: 5% 7%;
 }
 
+.white {
+    color: white;
+}
 /* Media queries */
 
 /* Use Boostrap breakpoint for XL screens */
