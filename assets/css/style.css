@@ -19,10 +19,14 @@ h1, h2 {
     font-family: "DM Serif Display", serif;
     color: #184f63;    /* dark-blue; */
 }
+.white {
+    color: white;
+}
 
 .sharp-corners, .sharp-corners * {
     border-radius: 0;
 }
+/* Custom-buttons */
 .mid-blue {
     color: #1f7798;
 }
@@ -81,9 +85,7 @@ h1, h2 {
     padding: 5% 7%;
 }
 
-.white {
-    color: white;
-}
+
 /* Media queries */
 
 /* Use Boostrap breakpoint for XL screens */
